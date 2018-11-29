@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="org.winacro.sensors2" version="1.0.0">
+    <author email="nishant@winacro.com" href="www.winacro.com">Nishant Sood</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.winacro.sensors2" exec="sensors2" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>sensors2</label>
+        <icon>sensors.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+</manifest>
